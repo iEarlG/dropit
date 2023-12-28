@@ -1,8 +1,10 @@
 
 import Link from "next/link";
 
-import { Wrapper } from "@/components/style/Wrapper";
 import { Button } from "@/components/ui/button";
+import { Separator } from "@/components/ui/separator";
+
+import { Wrapper } from "@/components/style/Wrapper";
 
 export default function Home() {
   return (
@@ -25,7 +27,13 @@ export default function Home() {
         </div>
       </Wrapper>
 
-      <section className="border-t border-gray-200 bg-gray-50"></section>
+      <Separator />
+      {/* IF SECTION ATTRBS NEED */}
+        <Wrapper className="py-20">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-y-12 sm:gap-x-6 lg:gap-x-8 lg:gap-y-0">
+            
+          </div>
+        </Wrapper>
     </>
   );
 }
