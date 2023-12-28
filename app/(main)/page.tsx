@@ -6,6 +6,12 @@ import { Separator } from "@/components/ui/separator";
 
 import { Wrapper } from "@/components/style/Wrapper";
 
+const perks = [
+  {
+    name: ""
+  }
+]
+
 export default function Home() {
   return (
     <>
@@ -31,7 +37,7 @@ export default function Home() {
       {/* IF SECTION ATTRBS NEED */}
         <Wrapper className="py-20">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-y-12 sm:gap-x-6 lg:gap-x-8 lg:gap-y-0">
-            
+
           </div>
         </Wrapper>
     </>
