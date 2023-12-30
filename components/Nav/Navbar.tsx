@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 import { Wrapper } from "@/components/style/Wrapper";
-import { Navigation } from "@/components/Navigation";
+import { Navigation } from "@/components/Nav/Navigation";
 
 const Navbar = () => {
     return ( 
