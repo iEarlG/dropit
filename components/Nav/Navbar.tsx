@@ -9,8 +9,8 @@ const Navbar = () => {
     return ( 
         <div className="h-16 bg-white sticky z-50 top-0 inset-x-0">
             <header className="relative bg-white">
-                <div className="border-b border-gray-200">
-                    <Wrapper>
+                <Wrapper>
+                    <div className="border-b border-gray-200">
                         <div className="flex h-16 items-center">
                             <div className="flex ml-4 md:ml-0">
                                 <Link href="/">
@@ -26,8 +26,8 @@ const Navbar = () => {
                                 <Navigation />
                             </div>
                         </div>
-                    </Wrapper>
-                </div>
+                    </div>
+                </Wrapper>
             </header>
         </div>
     );
