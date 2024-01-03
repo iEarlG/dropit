@@ -3,8 +3,10 @@ import Image from "next/image";
 import Link from "next/link";
 
 import { Wrapper } from "@/components/style/Wrapper";
-import { Navigation } from "@/components/Nav/Navigation";
 import { Button } from "@/components/ui/button";
+
+import { Navigation } from "@/components/Nav/Navigation";
+import { Cart } from "@/components/Cart";
 
 const Navbar = () => {
     const user = null;
