@@ -1,4 +1,5 @@
 import { type ClassValue, clsx } from "clsx"
+import next from "next";
 import { twMerge } from "tailwind-merge"
 
 export function cn(...inputs: ClassValue[]) {
@@ -22,3 +23,14 @@ export function formatPrice(
     maximumFractionDigits: 2
   }).format(numericPrice)
 };
+
+// NEXT JS 13 UTILS
+
+const PORT = Number(process.env.PORT) || 3000;
+
+export const nextApp = next({
+  dev: process.env.NODE_ENV === "production",
+  port: PORT
+});
+
+export const nextHandler = nextApp.getRequestHandler();
